@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 .container {
   /* background-color: gray; */
@@ -111,12 +112,15 @@ h2 {
 }
 .lista {
   padding-bottom: 10px;
+  color: #1f2122 !important;
 }
 li {
   margin-left: 30px;
+  color: #1f2122;
 }
 .ipsum {
   margin-left: 25px;
+  color: #1f2122;
 }
 .form-container {
   /* background-color: #181a1b; */
@@ -125,11 +129,13 @@ li {
 }
 .descriere {
   padding-bottom: 10px;
+  color: #1f2122;
 }
 
 .proces-de-comanda {
   padding-bottom: 20px;
   /* color: white; */
+  color: #1f2122;
 }
 ol {
   /* color: white; */
@@ -154,6 +160,7 @@ ol {
   /* background-color: pink; */
   /* height: 2000px; */
 }
+
 .product-images {
   /* background-color: orange; */
   display: flex;
@@ -164,7 +171,9 @@ ol {
   margin-bottom: 20px;
   width: 100%;
 }
-
+.form-text {
+  color: #1f2122;
+}
 .footer-information {
   display: flex;
   flex-direction: row;
@@ -185,6 +194,7 @@ ol {
 
   padding-right: 10px;
 }
+
 .footer-info-text2 {
   /* background-color: #6db188; */
   /* margin-left: 10px; */
@@ -223,6 +233,7 @@ ol {
 }
 .clienti {
   padding: 20px;
+  color: #1f2122;
 }
 .footer-newsletter-container {
   display: flex;
@@ -246,6 +257,13 @@ ol {
   margin-top: 10px;
   margin: 20px 0 20px 0;
 }
+.buton-de-abonare:hover {
+  background-color: #0072ab;
+  cursor: pointer;
+}
+input {
+  color: #1f2122;
+}
 
 .email-address-container {
   /* padding-top: 25px;
@@ -256,6 +274,9 @@ ol {
   padding: 10px 0 10px 10px;
   width: 400px;
   font-family: "Poppins";
+}
+textarea {
+  color: #1f2122;
 }
 *:focus {
   outline: none;
